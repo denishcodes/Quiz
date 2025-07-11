@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>General‑Knowledge Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Nepal & World GK Quiz</h1>
+
+    <!-- live timer -->
+    <div id="timer" class="timer hide">05:00</div>
+
+    <!-- question and answers -->
+    <div id="question-box" class="hide">
+      <div id="question" class="question">Question text</div>
+      <div id="answer-buttons" class="btn-grid"></div>
+    </div>
+
+    <!-- controls -->
+    <div class="controls">
+      <button id="start-btn"  class="btn">Start Quiz</button>
+      <button id="pause-btn"  class="btn hide">Pause</button>
+      <button id="next-btn"   class="btn hide">Next</button>
+    </div>
+
+    <!-- final score -->
+    <p id="score-text" class="score hide">Score: 0 / 0</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
